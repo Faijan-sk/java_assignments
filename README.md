@@ -1,9 +1,14 @@
 # java_assignments
 //First Assignment 
+
+
+
 /*
 1)create a class "Shape" with 2 attributes, "width" and "height". Make sure one can not access these attributes directly.
 provide accessor methods on these attributes and allow them to call from outside of your class.
 */
+
+
 package package_name;
  public class Shape{
         private int width=41;
