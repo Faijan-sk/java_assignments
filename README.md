@@ -10,19 +10,17 @@ provide accessor methods on these attributes and allow them to call from outside
 
 
 package package_name;
- public class Shape{
+public class Shape{
         private int width=41;
         private int height=51;
-        
         public void getWidth(){
             System.out.println("the width is :" + width);
         }
-    
         public void getHeight(){
             System.out.println("the Height is :" + height);
         }
     }
-    public class First_assingment {
+ public class First_assingment {
     public static void main(String[] args) {
     
         Shape obj = new Shape();
